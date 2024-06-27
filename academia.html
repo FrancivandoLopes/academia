@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focus Academia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Focus Academia</div>
+            <ul class="nav-links">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#locations">Unidades</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Bem-vindo à Focus Academia</h1>
+                <p>Transforme seu corpo e mente</p>
+                <a href="#services" class="cta-button">Nossos Serviços</a>
+            </div>
+        </section>
+        <section id="about" class="about">
+            <h2>Sobre Nós</h2>
+            <p>Na Focus Academia, oferecemos um ambiente acolhedor e equipamentos modernos para ajudar você a alcançar seus objetivos de fitness.</p>
+        </section>
+        <section id="services" class="services">
+            <h2>Nossos Serviços</h2>
+            <div class="service-cards">
+                <div class="service-card">
+                    <img src="images/service1.jpg" alt="Serviço 1">
+                    <h3>Musculação</h3>
+                    <p>Equipamentos de última geração e instrutores qualificados.</p>
+                </div>
+                <div class="service-card">
+                    <img src="images/service2.jpg" alt="Serviço 2">
+                    <h3>Aulas de Grupo</h3>
+                    <p>Aulas dinâmicas de dança, yoga, pilates e mais.</p>
+                </div>
+                <div class="service-card">
+                    <img src="images/service3.jpg" alt="Serviço 3">
+                    <h3>Personal Trainer</h3>
+                    <p>Treinamento personalizado para maximizar seus resultados.</p>
+                </div>
+            </div>
+        </section>
+        <section id="locations" class="locations">
+            <h2>Nossas Unidades</h2>
+            <div class="location-cards">
+                <div class="location-card">
+                    <img src="images/location1.jpg" alt="Unidade 1">
+                    <h3>Unidade Centro</h3>
+                    <p>Endereço: Rua Principal, 123 - Centro</p>
+                </div>
+                <div class="location-card">
+                    <img src="images/location2.jpg" alt="Unidade 2">
+                    <h3>Unidade Sul</h3>
+                    <p>Endereço: Avenida Sul, 456 - Bairro Sul</p>
+                </div>
+                
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <h2>Contato</h2>
+            <form id="contact-form">
+                <label for="name">Nome:</label> <!-- insira o nome-->
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Focus Academia. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
